@@ -10,7 +10,7 @@ const Projects = ({ projects }: any) => {
 			<div className='section mt-[150px]'>
 				<h3 className='section-title'>Projets</h3>
 			</div>
-			<div className='section bg-projects-img bg-fixed bg-cover bg-bottom'>
+			<div className='section bg-fixed bg-cover bg-bottom projects-img'>
 				<div>
 					<div className='grid md:grid-cols-3 sm:grid-cols-2 gap-4 p-5 justify-center items-center'>
 						{projects.map((project: any) => (

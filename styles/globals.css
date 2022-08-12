@@ -230,6 +230,10 @@ a {
 		focus:outline-none
 }
 
+.projects-img {
+	background-image: url('/assets/images/projects.jpeg');
+}
+
 /* <------------------ TECHNOS ------------------> */
 
 .tech-list {
