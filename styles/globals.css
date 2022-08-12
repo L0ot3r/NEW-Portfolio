@@ -7,6 +7,7 @@ body {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 	@apply bg-slate-900
 }
 
@@ -127,7 +128,8 @@ a {
 		flex 
 		flex-col 
 		p-8 
-		mt-16 
+		pb-0
+		/* mt-[150px] */
 		mx-auto 
 		box-content 
 		relative 
@@ -226,4 +228,54 @@ a {
 		font-semibold
 		opacity-100 hover:opacity-0
 		focus:outline-none
+}
+
+/* <------------------ TECHNOS ------------------> */
+
+.tech-list {
+	@apply
+		list-none 
+		flex flex-col
+		sm:grid 
+		sm:justify-center
+		grid-cols-3 
+		gap-10 
+		my-12
+}
+.tech-list-item {
+	@apply
+		max-w-xs 
+		flex 
+		sm:flex-col
+		p-4
+		flex-wrap 
+		text-gray-200
+}
+.tech-icons-container {
+	@apply 
+		flex
+		flex-[0.2]
+		flex-col sm:flex-row
+		mr-3
+		px-6
+		pt-3
+		sm:pb-4
+		items-center sm:px-0
+}
+.tech-text-container {
+	@apply
+		flex 
+		flex-col
+		flex-1
+}
+.tech-text-title {
+	@apply
+		font-bold 
+		text-3xl 
+		mb-2
+}
+.tech-text-p {
+	@apply
+		text-lg 
+		text-[#f1f1f1]
 }

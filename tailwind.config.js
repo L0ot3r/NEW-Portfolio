@@ -35,9 +35,10 @@ module.exports = {
         '88vh': '88vh',
       },
       backgroundImage: {
+        'projects-img': "url('/images/projects.jpeg')",
         'blurred-img':
-          "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsaaJ7s4lqcBF4IDROVPzrlL5fexcwRmDlnuEYQenWTt1DejFY5kmYDref2a0Hp2eE4aw&usqp=CAU')",
-      },
+          "url('https://images.unsplash.com/photo-1558346547-4439467bd1d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')",
+      }
     },
   },
   plugins: [],

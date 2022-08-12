@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import { client } from '../utils/lib/client'
 
-import { Layout, Hero, BgAnim, Footer, Projects } from '../components';
+import { Layout, Hero, BgAnim, Footer, Projects, Technologies } from '../components';
 
 const Home: NextPage = ({ projects }: any) => {
 
@@ -20,7 +20,7 @@ const Home: NextPage = ({ projects }: any) => {
 					<BgAnim />
 				</div>
 				<Projects projects={projects} />
-
+				<Technologies />
 
 			<footer>
 				<Footer />
