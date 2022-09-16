@@ -1,7 +1,7 @@
 export const TimeLineData = [
 	{
 		year: 2019,
-		text: `Des problèmes médicaux m'obligent à cesser mon acivité. La même année, je commence à tourner du coté du "Dev"`,
+		text: `Des problèmes médicaux m'obligent à cesser mon acivité. La même année, je commence à me tourner du coté du "Dev"`,
 	},
 	{
 		year: 2020,
@@ -9,7 +9,7 @@ export const TimeLineData = [
 	},
 	{
 		year: 2021,
-		text: `Je me tourne finalement vers le Javascript et décide d'approfondir mes connaissances dans ce language pour me concentrer sur le developpement web et mobile`,
+		text: `Je m'oriente finalement vers le Javascript et décide d'approfondir mes connaissances dans ce language pour me concentrer sur le developpement web et mobile`,
 	},
 	{
 		year: 2022,

@@ -7,7 +7,7 @@ import { DiCssdeck } from 'react-icons/di';
 const Navbar = () => {
 	return (
 		<div className='nav-container'>
-				<div className='div1'>
+				<div className='nav-brand'>
 					<Link href='/'>
 						<a className='text-[#f1f1f1] mb-1 flex items-center'>
 							<DiCssdeck size='2.5rem' />{' '}
@@ -15,7 +15,7 @@ const Navbar = () => {
 						</a>
 					</Link>
 				</div>
-				<div className='div2'>
+				<div className='nav-links'>
 					<li>
 						<Link href='#projects'>
 							<a className='nav-link'>Projets</a>
@@ -32,7 +32,7 @@ const Navbar = () => {
 						</Link>
 					</li>
 				</div>
-				<div className='div3'>
+				<div className='social-links'>
 					<a
 						className='social-icons mr-2'
 						href='https://github.com/L0ot3r'

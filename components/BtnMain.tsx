@@ -3,11 +3,12 @@ import React from 'react';
 interface IProps {
   title: string;
   onClick: any;
+	style?: string;
 }
 
-const BtnMain = ({ title, onClick }: IProps) => {
+const BtnMain = ({ title, onClick, style }: IProps) => {
 	return (
-		<div className='btn-back'>
+		<div className={`${style}`}>
 			{title}
 			<button
 				className='btn-front'

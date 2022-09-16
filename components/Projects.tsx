@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { BtnMain } from '../components';
 
 import { urlFor } from '../utils/lib/client';
 
@@ -10,7 +11,7 @@ const Projects = ({ projects }: any) => {
 			<div className='section mt-[150px]'>
 				<h3 className='section-title'>Projets</h3>
 			</div>
-			<div className='section bg-fixed bg-cover bg-bottom projects-img'>
+			<div className='section bg-projects-img bg-fixed bg-cover bg-bottom'>
 				<div>
 					<div className='grid md:grid-cols-3 sm:grid-cols-2 gap-4 p-5 justify-center items-center'>
 						{projects.map((project: any) => (
@@ -30,24 +31,24 @@ const Projects = ({ projects }: any) => {
 										</h1>
 										<p className='p-2 mt-2'>{project.description}</p>
 										<div className='flex justify-between'>
-											<Link href={project.githuburl}>
-												<a
-													className='text-blue-700 hover:text-red-400 px-3 font-semibold'
-													target='_blank'
-													rel='noopener noreferrer'
-												>
-													Code
-												</a>
-											</Link>
-											<Link href={project.viewurl}>
-												<a
-													className='text-blue-700 hover:text-red-400 px-3 font-semibold'
-													target='_blank'
-													rel='noopener noreferrer'
-												>
-													Aperçu
-												</a>
-											</Link>
+											<BtnMain 
+												title='Code'
+												onClick={() => window.open(
+													project.githuburl,
+													'_blank',
+													'noopener,noreferrer'
+												)}
+												style='btn-back w-[90px] py-1'
+											/>
+											<BtnMain 
+												title='Aperçu'
+												onClick={() => window.open(
+													project.viewurl,
+													'_blank',
+													'noopener,noreferrer'
+												)}
+												style='btn-back w-[90px] py-1'
+											/>
 										</div>
 									</div>
 								</div>

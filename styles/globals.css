@@ -8,7 +8,6 @@ body {
 	margin: 0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
-	@apply bg-slate-900
 }
 
 :root {
@@ -55,13 +54,13 @@ a {
 		items-center
 }
 
-.div1 {
+.nav-brand {
 	@apply
 		col-start-1 col-end-2
 		flex flex-row items-center
 }
 
-.div2 {
+.nav-links {
 	@apply
 		col-start-1 col-end-6 row-start-2
 		lg:row-start-1 
@@ -72,12 +71,12 @@ a {
 		justify-evenly
 		items-center
 }
-.div2 li {
+.nav-links li {
 	@apply
 		list-none
 }
 
-.div3 {
+.social-links {
 	@apply
 		sm:col-start-5 sm:col-end-6 
 		col-end-5
@@ -197,8 +196,6 @@ a {
 	transition: 0.5s ease;
 	@apply
 		relative
-		w-full sm:w-[262px]
-		h-8 sm:h-[64px]
 		rounded-[50px]
 		text-[#f1f1f1]
 		text-xl
@@ -230,9 +227,6 @@ a {
 		focus:outline-none
 }
 
-.projects-img {
-	background-image: url('/assets/images/projects.jpeg');
-}
 
 /* <------------------ TECHNOS ------------------> */
 

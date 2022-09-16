@@ -34,6 +34,30 @@ module.exports = {
       height: {
         '88vh': '88vh',
       },
+      backgroundImage: {
+        'projects-img': "url('/assets/images/projects.jpeg')",
+        'blurred-img':
+          "url('https://images.unsplash.com/photo-1558346547-4439467bd1d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')",
+      },
+      // screens: {
+      //   '2xl': {'max': '1535px'},
+      //   // => @media (max-width: 1535px) { ... }
+  
+      //   'xl': {'max': '1279px'},
+      //   // => @media (max-width: 1279px) { ... }
+  
+      //   'lg': {'max': '1023px'},
+      //   // => @media (max-width: 1023px) { ... }
+  
+      //   'md': {'max': '767px'},
+      //   // => @media (max-width: 767px) { ... }
+  
+      //   'sm': {'max': '639px'},
+      //   // => @media (max-width: 639px) { ... }
+
+      //   'xs': {'max': '479px'},
+      //   // => @media (max-width: 479px) { ... }
+      // }
     },
   },
   plugins: [],
