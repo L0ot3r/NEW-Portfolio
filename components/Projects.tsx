@@ -25,7 +25,7 @@ const Projects = ({ projects }: any) => {
 										layout='responsive'
 										className='rounded-t-md'
 									/>
-									<div className='bg-gray-200 p-4 rounded-md rounded-t-none w-full min-h-[250px] flex flex-col justify-around'>
+									<div className='bg-[#3a3a3a] text-[#f1f1f1] p-4 rounded-md rounded-t-none w-full min-h-[250px] flex flex-col justify-around'>
 										<h1 className='text-2xl font-semibold mt-2'>
 											{project.title}
 										</h1>

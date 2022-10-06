@@ -13,7 +13,7 @@ const Layout = ({ children }: IProps) => {
 				<title>Portfolio - Sébastien Léoville</title>
 			</Head>
 
-			<header className='fixed w-full max-w-7xl bg-slate-900 z-50'>
+			<header className='fixed w-full max-w-7xl  bg-gradient-to-b from-[#1a1a1a] to-transparent via-[#1a1a1a] z-50'>
 				<Navbar />
 			</header>
 
