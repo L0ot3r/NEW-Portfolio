@@ -36,8 +36,6 @@ module.exports = {
       },
       backgroundImage: {
         'projects-img': "url('/assets/images/projects.jpeg')",
-        'blurred-img':
-          "url('https://images.unsplash.com/photo-1558346547-4439467bd1d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')",
       },
       // screens: {
       //   '2xl': {'max': '1535px'},

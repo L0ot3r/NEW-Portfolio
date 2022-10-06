@@ -136,6 +136,10 @@ a {
 		max-w-6xl
 }
 
+.bg-img-projects {
+	background-image: url('/assets/images/projects.jpeg');
+}
+
 .section-flex {
 	@apply 
 		flex
