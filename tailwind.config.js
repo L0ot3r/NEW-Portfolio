@@ -35,7 +35,7 @@ module.exports = {
         '88vh': '88vh',
       },
       backgroundImage: {
-        'projects-img': "url('/assets/images/projects.jpeg')",
+        'projects-img': "url('https://new-portfolio-prestaverse.vercel.app/assets/images/projects.jpeg')",
       },
       // screens: {
       //   '2xl': {'max': '1535px'},
